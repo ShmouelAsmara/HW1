@@ -19,6 +19,7 @@ public class Ascend {
 			} else
 				System.out.println(c);
 			System.out.println(b);
+
 			return;
 		}
 		while (b < a && b < c) {
