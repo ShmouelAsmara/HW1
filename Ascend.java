@@ -7,41 +7,39 @@ public class Ascend {
 		// I dont know how to put the range from the user so
 		// I creat an integer that decide the range
 		int range = 100;
-		int A = (int) (Math.random() * range) + 1;
-		int B = (int) (Math.random() * range) + 1;
-		int C = (int) (Math.random() * range) + 1;
+		int a = (int) (Math.random() * range) + 1;
+		int b = (int) (Math.random() * range) + 1;
+		int c = (int) (Math.random() * range) + 1;
 
-		while (A < B && A < C) {
-			System.out.println(A);
-			if (B < C) {
-				System.out.println(B);
-				System.out.println(C);
+		while (a < b && a < c) {
+			System.out.println(a);
+			if (b < c) {
+				System.out.println(b);
+				System.out.println(c);
 			} else
-				System.out.println(C);
-			System.out.println(B);
+				System.out.println(c);
+			System.out.println(b);
 			return;
-
 		}
-
-		while (B < A && B < C) {
-			System.out.println(B);
-			if (A < C) {
-				System.out.println(A);
-				System.out.println(C);
+		while (b < a && b < c) {
+			System.out.print(b);
+			if (a < c) {
+				System.out.println(a);
+				System.out.println(c);
 			} else
-				System.out.println(C);
-			System.out.println(A);
+				System.out.println(c);
+			System.out.println(b);
 			return;
 		}
 
-		while (C < A && C < B) {
-			System.out.println(C);
-			if (A < B) {
-				System.out.println(A);
-				System.out.println(B);
+		while (c < a && c < b) {
+			System.out.println(c);
+			if (a < b) {
+				System.out.println(a);
+				System.out.println(b);
 			} else
-				System.out.println(B);
-			System.out.println(A);
+				System.out.println(b);
+			System.out.println(a);
 			return;
 		}
 	}
