@@ -11,8 +11,7 @@ public class Bill3 {
 		double Calculation = Bill / 3;
 		String SplitBill = String.valueOf(Calculation);
 
-		System.out.println(
-				"Dear " + name1 + "," + name2 + ",and " + name3 + ":pay " + SplitBill + " Shekels each.");
+		System.out.println("Dear " + name1 + "," + name2 + ",and " + name3 + ":pay " + SplitBill + " Shekels each.");
 
 	}
 }
