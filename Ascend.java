@@ -11,7 +11,7 @@ public class Ascend {
 		int b = (int) (Math.random() * range) + 1;
 		int c = (int) (Math.random() * range) + 1;
 
-		while (a < b && a < c) {
+		while (a < b && a < c || a == c || a == b) {
 			System.out.println(a);
 			if (b < c) {
 				System.out.println(b);
@@ -22,7 +22,7 @@ public class Ascend {
 
 			return;
 		}
-		while (b < a && b < c) {
+		while (b < a && b < c || b == c) {
 			System.out.print(b);
 			if (a < c) {
 				System.out.println(a);
