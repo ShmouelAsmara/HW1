@@ -15,7 +15,7 @@ public class TimeFormat {
 		// Replace this comment with the rest of your code
 		// string ampm= hours < 12 ? "am" :" pm"
 
-		if (hours >= 12) {
+		if (hours > 12) {
 			ampm = "PM";
 			hours = hours - 12;
 		} else {
